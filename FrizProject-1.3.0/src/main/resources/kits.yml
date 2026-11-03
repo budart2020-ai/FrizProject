@@ -1,0 +1,35 @@
+# Это самостоятельные utility-наборы. Точные закрытые составы наборов FrizMine публично не опубликованы.
+cooldown_seconds: 86400
+kits:
+  warrior:
+    display: "Кит Воина"
+    rank_weight: 10
+    commands: ["give %player% iron_pickaxe 1", "give %player% bread 16", "give %player% torch 24"]
+  wanderer:
+    display: "Кит Странника"
+    rank_weight: 20
+    commands: ["give %player% iron_axe 1", "give %player% iron_shovel 1", "give %player% bread 24", "give %player% oak_planks 64"]
+  lord:
+    display: "Кит Лорда"
+    rank_weight: 30
+    commands: ["give %player% iron_pickaxe 1", "give %player% iron_axe 1", "give %player% iron_shovel 1", "give %player% torch 48", "give %player% bread 32"]
+  legend:
+    display: "Кит Легенды"
+    rank_weight: 40
+    commands: ["give %player% diamond_pickaxe 1", "give %player% iron_axe 1", "give %player% iron_shovel 1", "give %player% oak_planks 128", "give %player% bread 48"]
+  prince:
+    display: "Кит Принца"
+    rank_weight: 50
+    commands: ["give %player% diamond_pickaxe 1", "give %player% diamond_axe 1", "give %player% torch 64", "give %player% bread 64", "give %player% oak_planks 128"]
+  magister:
+    display: "Кит Магистра"
+    rank_weight: 60
+    commands: ["give %player% diamond_pickaxe 1", "give %player% diamond_axe 1", "give %player% diamond_shovel 1", "give %player% torch 96", "give %player% bread 64"]
+  overlord:
+    display: "Кит Властелина"
+    rank_weight: 70
+    commands: ["give %player% diamond_pickaxe 1", "give %player% diamond_axe 1", "give %player% diamond_shovel 1", "give %player% oak_planks 256", "give %player% bread 64"]
+  guardian:
+    display: "Кит Хранителя"
+    rank_weight: 80
+    commands: ["give %player% diamond_pickaxe 1", "give %player% diamond_axe 1", "give %player% diamond_shovel 1", "give %player% torch 128", "give %player% bread 64", "give %player% oak_planks 256"]

@@ -1,0 +1,37 @@
+name: FrizProject
+main: net.frizproject.FrizProjectPlugin
+version: "1.3.0"
+api: ["1.0.0"]
+author: FrizProject
+description: "Independent Bedrock server core: staff hierarchy, coordinates, teleport tools and utility kits."
+commands:
+  coords:
+    description: Show or toggle world coordinates
+    usage: "/coords [on|off]"
+  stafftp:
+    description: Staff teleport to a player
+    usage: "/stafftp <player>"
+  tphere:
+    description: Teleport a player to staff member
+    usage: "/tphere <player>"
+  tpall:
+    description: Teleport all players to staff member
+    usage: "/tpall"
+  beacon:
+    description: Creator beacon tools
+    usage: "/beacon spawn"
+  staffrank:
+    description: Set staff role
+    usage: "/staffrank <player> <role>"
+  rankset:
+    description: Set donor rank
+    usage: "/rankset <player> <rank>"
+  kit:
+    description: Receive a utility kit
+    usage: "/kit <rank>"
+  kits:
+    description: List available kits
+    usage: "/kits"
+  staffchat:
+    description: Staff chat
+    usage: "/staffchat <message>"
